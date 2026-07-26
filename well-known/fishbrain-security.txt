@@ -1,0 +1,4 @@
+Contact: mailto:security@fishbrain.com
+Expires: 2025-06-30T23:00:00.000Z
+Encryption: https://fishbrain.com/age-key.txt
+Preferred-Languages: en, sv

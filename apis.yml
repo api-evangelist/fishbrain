@@ -1,8 +1,17 @@
 aid: fishbrain
 name: Fishbrain
-description: 'Fishbrain is a company surfaced as a portfolio company of northzone, seedcamp and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Fishbrain is a Stockholm-based consumer technology company behind the largest
+  social network and mobile app for recreational anglers, with a community of
+  around 20 million fishermen and roughly 14 million logged catch locations. The
+  app blends a social feed, a digital catch logbook with AI-powered species
+  recognition, depth charts (from Garmin), local fishing reports with weather and
+  bait intelligence, an AI-driven fishing-spot prediction map, and a searchable
+  database of fishing regulations covering seasons, bag limits, and size rules.
+  Fishbrain monetizes through a Fishbrain Pro subscription and is backed by
+  Northzone and Seedcamp. It exposes no public developer API — api.fishbrain.com
+  is a private backend for the iOS/Android apps — so this profile captures the
+  company's public security, engineering, and web surface rather than an API.
 url: https://raw.githubusercontent.com/api-evangelist/fishbrain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fishbrain.com/_next/static/media/og_image_homepage.17dqb6i1ii3es.png
 tags:
 - Company
 - Consumer
+- Fishing
+- Mobile App
+- Social Network
+- Outdoor Recreation
+- Angling
+- Sweden
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://fishbrain.com
+- type: Blog
+  url: https://fishbrain.com/blog
+- type: Support
+  url: https://fishbrainhelp.zendesk.com/hc/en-us
+- type: TermsOfService
+  url: https://fishbrain.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://fishbrain.com/privacy
+- type: Pricing
+  url: https://fishbrain.com/pro
+- type: GitHubOrganization
+  url: https://github.com/fishbrain
+- type: SecurityTxt
+  url: well-known/fishbrain-security.txt
+- type: WellKnown
+  url: well-known/fishbrain-well-known.yml
+- type: DomainSecurity
+  url: security/fishbrain-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/fishbrain-vulnerability-disclosure.yml
+- type: Security
+  url: https://fishbrain.com/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
