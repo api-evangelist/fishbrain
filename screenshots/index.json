@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "fishbrain",
+    "captured_at": "2026-10-11T185533",
+    "source_url": "https://fishbrain.com",
+    "source_type": "Website",
+    "file": "fishbrain-2026-10-11T185533.png",
+    "bytes": 319435,
+    "capture": "playwright-local"
+  }
+]
